@@ -1,0 +1,175 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 24px;
+    padding-right: 200px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar {
+    margin-right: 20px;
+    padding-left: 50px;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.sign-in a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.delivery-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-side h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.left-side p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.order-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-side {
+    flex: 1;
+    text-align: center;
+}
+
+.right-side img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.food-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.food-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.food-card h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+.food-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.price {
+    font-size: 18px;
+    color: #ff5733;
+    font-weight: bold;
+}
+
+
+.contact {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
